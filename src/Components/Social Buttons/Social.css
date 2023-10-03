@@ -1,0 +1,20 @@
+.social {
+    background-image: url(https://images.unsplash.com/photo-1419242902214-272b3f66ee7a?ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxzZWFyY2h8Mnx8cHVycGxlJTIwbmlnaHQlMjBza3l8ZW58MHx8MHx8fDA%3D&);
+    background-size: cover;
+    background-repeat: no-repeat;
+    text-align: center;
+    color: #fff;
+    display: flex;
+    min-height: 100vh;
+    align-items: center;
+    justify-content: center;
+}
+
+.social h1 {
+    margin-bottom: 30px;
+}
+
+.social .btn-warning,
+.social .btn-light {
+    margin-right: 30px;
+}

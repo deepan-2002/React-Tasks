@@ -1,0 +1,22 @@
+.fruits {
+    color: #fff;
+    text-align: center;
+    min-height: 100vh;
+    padding: 30px;
+    background-image: linear-gradient(120deg, #424553, #961a1d);
+}
+
+.fruits .container {
+    padding: 100px 30px;
+    background-color: #fff;
+}
+.fruits img{
+    margin-bottom: 30px;
+}
+.fruits .btn-success{
+    background-color: #424553;
+}
+
+.fruits .btn-danger{
+    background-color: #961a1d;
+}

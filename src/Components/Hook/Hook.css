@@ -1,0 +1,10 @@
+.hook {
+    display: flex;
+    min-height: 90vh;
+    align-items: center;
+    justify-content: center;
+    text-align: center;
+}
+.hook img{
+    width: 300px;
+}

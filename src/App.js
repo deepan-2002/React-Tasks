@@ -11,6 +11,7 @@ import Hook from './Components/Hook/Hook';
 import Fruit from './Components/Fruit Container/Fruit';
 import Feedback from './Components/Feedback/Feedback';
 import Response from './Components/Feedback/Response';
+import Coursedate from './Components/Date Function/Date';
 
 function App() {
   return (
@@ -29,6 +30,7 @@ function App() {
           <Route path="/fruit" element={<Fruit />} />
           <Route path="/feedback" element={<Feedback/>} />
           <Route path="/response" element={<Response/>} />
+          <Route path="/datefunction" element={<Coursedate/>} />
         </Routes>
       </BrowserRouter>
     </>

@@ -9,6 +9,8 @@ import Login from './Components/Login Design/Login';
 import Tech from './Components/Technology Cards/Tech';
 import Hook from './Components/Hook/Hook';
 import Fruit from './Components/Fruit Container/Fruit';
+import Feedback from './Components/Feedback/Feedback';
+import Response from './Components/Feedback/Response';
 
 function App() {
   return (
@@ -16,7 +18,7 @@ function App() {
       <BrowserRouter>
         <Menu />
         <Routes>
-          <Route path="/home" element={<Home />} />
+          <Route path="/" element={<Home />} />
           <Route path="/congrats" element={<Congrats />} />
           <Route path="/superover" element={<SuperOver />} />
           <Route path="/socialbuttons" element={<Social />} />
@@ -24,7 +26,9 @@ function App() {
           <Route path="/logindesign" element={<Login />} />
           <Route path="/tech" element={<Tech />} />
           <Route path="/hook" element={<Hook />} />
-          <Route path="/fruit" element={<Fruit/>} />
+          <Route path="/fruit" element={<Fruit />} />
+          <Route path="/feedback" element={<Feedback/>} />
+          <Route path="/response" element={<Response/>} />
         </Routes>
       </BrowserRouter>
     </>

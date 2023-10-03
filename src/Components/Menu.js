@@ -10,7 +10,7 @@ function Menu() {
                 <Container fluid>
                     <Navbar.Brand href="/home"><img src='./logo512.png' width={'30px'}></img></Navbar.Brand>
                     <Nav className="m-auto">
-                        <Nav.Link href="/home">Home</Nav.Link>
+                        <Nav.Link href="/">Home</Nav.Link>
                         <Nav.Link href="/congrats">Congrats Card</Nav.Link>
                         <Nav.Link href="/superover">Super Over</Nav.Link>
                         <Nav.Link href="/socialbuttons">Social Buttons</Nav.Link>
@@ -19,6 +19,7 @@ function Menu() {
                         <Nav.Link href="/tech">Technology Cards</Nav.Link>
                         <Nav.Link href="/hook">Hook</Nav.Link>
                         <Nav.Link href="/fruit">Fruits</Nav.Link>
+                        <Nav.Link href="/feedback">Feedback</Nav.Link>
                     </Nav>
                 </Container>
             </Navbar>

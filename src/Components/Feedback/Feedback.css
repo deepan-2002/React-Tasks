@@ -1,0 +1,24 @@
+.feedback {
+    min-height: 100vh;
+    background-image: linear-gradient(120deg, #fff, pink);
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    text-align: center;
+}
+
+.feedback .container {
+    width: fit-content;
+    background-color: #fff;
+    padding: 50px;
+}
+
+.emoji-container {
+    display: flex;
+    justify-content: space-around;
+    margin: 20px;
+}
+
+.feedback .heart{
+    font-size: 100px;
+}

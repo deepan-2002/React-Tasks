@@ -12,6 +12,7 @@ import Fruit from './Components/Fruit Container/Fruit';
 import Feedback from './Components/Feedback/Feedback';
 import Response from './Components/Feedback/Response';
 import Coursedate from './Components/Date Function/Date';
+import Fetch from './Components/Fetch/Fetch';
 
 function App() {
   return (
@@ -28,9 +29,10 @@ function App() {
           <Route path="/tech" element={<Tech />} />
           <Route path="/hook" element={<Hook />} />
           <Route path="/fruit" element={<Fruit />} />
-          <Route path="/feedback" element={<Feedback/>} />
-          <Route path="/response" element={<Response/>} />
-          <Route path="/datefunction" element={<Coursedate/>} />
+          <Route path="/feedback" element={<Feedback />} />
+          <Route path="/response" element={<Response />} />
+          <Route path="/datefunction" element={<Coursedate />} />
+          <Route path="/fetch" element={<Fetch />} />
         </Routes>
       </BrowserRouter>
     </>

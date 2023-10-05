@@ -8,7 +8,7 @@ function Menu() {
         <>
             <Navbar bg="dark" data-bs-theme="dark">
                 <Container fluid>
-                    <Navbar.Brand href="/"><img src='./logo512.png' width={'30px'}></img></Navbar.Brand>
+                    <Navbar.Brand href="/"><img src='./logo512.png' alt='Logo' width={'30px'}></img></Navbar.Brand>
                     <Nav className="m-auto">
                         <Nav.Link href="/">Home</Nav.Link>
                         <Nav.Link href="/congrats">Congrats Card</Nav.Link>
@@ -22,6 +22,7 @@ function Menu() {
                         <Nav.Link href="/feedback">Feedback</Nav.Link>
                         <Nav.Link href="/datefunction">Date function</Nav.Link>
                         <Nav.Link href="/fetch">Fetch</Nav.Link>
+                        <Nav.Link href="/productlist">Products</Nav.Link>
                     </Nav>
                 </Container>
             </Navbar>

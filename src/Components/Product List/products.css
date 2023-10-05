@@ -1,0 +1,15 @@
+.product-details {
+    min-height: 100vh;
+    background-color: #e3e3e3;
+    padding: 20px;
+    text-align: justify;
+}
+
+.product-details .container {
+    background-color: #fff;
+    padding: 40px;
+}
+
+.product-details .container img{
+    height: 450px;
+}

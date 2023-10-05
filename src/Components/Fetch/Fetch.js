@@ -24,7 +24,7 @@ const Fetch = () => {
                     {products.map((product) => (
                         <div className="col-md-4 mb-4" key={product.id}>
                             <Card style={{ width: '18rem', boxShadow: '4px 4px 5px #ccc'}} className="h-100 p-2">
-                                <Card.Img variant="top" src={product.image} style={{ height: '250px' }} className="p-3" />
+                                <Card.Img variant="top" src={product.image} alt={product.title} style={{ height: '250px' }} className="p-3" />
                                 <Card.Body style={{borderTop: '1px solid #aaa'}}>
                                     <Card.Title>{product.title}</Card.Title>
                                     <Card.Text>

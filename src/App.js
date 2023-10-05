@@ -13,6 +13,8 @@ import Feedback from './Components/Feedback/Feedback';
 import Response from './Components/Feedback/Response';
 import Coursedate from './Components/Date Function/Date';
 import Fetch from './Components/Fetch/Fetch';
+import Productlist from './Components/Product List/Productlist';
+import Productdetails from './Components/Product List/Productdetails';
 
 function App() {
   return (
@@ -33,6 +35,8 @@ function App() {
           <Route path="/response" element={<Response />} />
           <Route path="/datefunction" element={<Coursedate />} />
           <Route path="/fetch" element={<Fetch />} />
+          <Route path="/productlist" element={<Productlist />} />
+          <Route path="/products/:id" element={<Productdetails />} />
         </Routes>
       </BrowserRouter>
     </>

@@ -33,7 +33,7 @@ const Productdetails = () => {
                     </div>
                     <div className="col-md-6 my-auto">
                         <h2>{product.title}</h2>
-                        <h4>₹{product.price}</h4>
+                        <h4>₹ {product.price}</h4>
                         <h5>{product.category}</h5>
                         <p>{product.description}</p>
                         <h6>Rating: {product.rating.rate}<FontAwesomeIcon icon={faStar} style={{color: "#e5a906",}} /> ({product.rating.count})</h6>
